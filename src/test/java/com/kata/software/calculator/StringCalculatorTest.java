@@ -10,15 +10,6 @@ class StringCalculatorTest extends AbstractJunitTest
     public StringCalculator stringCalculator;
 
     @Test
-    void calculateForEmptyStringReturnsZero()
-    {
-        final int expectedResult = 0;
-        final int retrievedResult = stringCalculator.calculate("");
-
-        Assertions.assertEquals(expectedResult, retrievedResult);
-    }
-
-    @Test
     void calculateForStringNumberEqualsNumber()
     {
         final int expectedResult = 5;
