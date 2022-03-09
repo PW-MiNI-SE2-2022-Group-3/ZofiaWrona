@@ -12,7 +12,7 @@ class StringCalculatorTest extends AbstractJunitTest
     @Test
     void calculateForEmptyStringReturnsZero()
     {
-        final int expectedResult = 0;
+        final int expectedResult = 15;
         final int retrievedResult = stringCalculator.calculate("");
 
         Assertions.assertEquals(expectedResult, retrievedResult);
